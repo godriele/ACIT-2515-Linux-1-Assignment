@@ -85,7 +85,7 @@ The key's randomart image is:
 ## Step 2: Adding a custom Arch Linux Image using the web console 
 
   
-  # Why would you need to a custom Arch Linux Image?:
+  # Why would you need to a custom Arch Linux Image:
   Having a custom Arch Linux images allows you to create a server that way you would want it. This means you can deploy new servers faster, and making sure they      all have a consistent setup
     
   Reference = https://www.freecodecamp.org/news/how-to-install-arch-linux/#:~:text=In%20other%20words%2C%20Arch%20Linux,desktop%20environment%2C%20and%20so%20on.
@@ -141,7 +141,8 @@ The key's randomart image is:
   4. Download a Cloud image
        # You will first download wget:
        brew install wge
-       # Paste this in your terminal: wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
+       # Paste this in your terminal:
+        wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 
     ---------------------------------------------------------------------------------------------------------------------
       
@@ -165,7 +166,7 @@ The key's randomart image is:
         
 
   6. Define your Metadata:
-     # Which is another configuration fule that cloud-init uses to gather instance-specif information
+     Which is another configuration fule that cloud-init uses to gather instance-specif information
      
      1. Paste this code: cat << EOF > meta-data
                          instance-id: someid/somehostname
@@ -173,7 +174,7 @@ The key's randomart image is:
                          EOF
         
      2. Define our vendor data
-        # Inside the temp directory paste this in to speed up the retry wait time
+        Inside the temp directory paste this in to speed up the retry wait time
         Paste this: touch vendor-data
 
 

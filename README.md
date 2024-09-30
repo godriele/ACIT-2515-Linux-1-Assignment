@@ -15,9 +15,11 @@ ACIT 2515 Linux System Administration Assignment 1 (Digital Ocean Droplet Tutori
   
 ## Step 1: Creating SSH Keys 
 
-   # What are SSH keys: An SSH key is an access credential in the SSH protocol. It is used to authenticate the identity of       a user or process that wants to access a remote system using the SSH protocol
+   # What are SSH keys: 
+   An SSH key is an access credential in the SSH protocol. It is used to authenticate the identity of a user or process that wants to access a remote system using     the SSH protocol
  
-   # Why would you need it: You need an SSH Key for secure, passwordless authentication to remote servers, enhancing             security over passwords. 
+   # Why would you need it: 
+   You need an SSH Key for secure, passwordless authentication to remote servers, enhancing security over passwords. 
    
    Reference = https://www.ssh.com/academy/ssh-keys
    ---------------------------------------------------------------------------------------------------------------------
@@ -83,9 +85,9 @@ The key's randomart image is:
 ## Step 2: Adding a custom Arch Linux Image using the web console 
 
   
-  # Why would you need to a custom Arch Linux Image?: Having a custom Arch Linux images allows you to create a server that 
-  way you would want it. This means you can deploy new servers faster, and making sure they all have a consistent setup
-  
+  # Why would you need to a custom Arch Linux Image?:
+  Having a custom Arch Linux images allows you to create a server that way you would want it. This means you can deploy new servers faster, and making sure they      all have a consistent setup
+    
   Reference = https://www.freecodecamp.org/news/how-to-install-arch-linux/#:~:text=In%20other%20words%2C%20Arch%20Linux,desktop%20environment%2C%20and%20so%20on.
 
 
@@ -137,7 +139,8 @@ The key's randomart image is:
         
 
   4. Download a Cloud image
-       # You will first download wget: brew install wge
+       # You will first download wget:
+       brew install wge
        # Paste this in your terminal: wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 
     ---------------------------------------------------------------------------------------------------------------------

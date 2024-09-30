@@ -114,12 +114,15 @@ The key's randomart image is:
  Reference = https://cloudinit.readthedocs.io/en/latest/tutorial/qemu.html
 
    1. Install QEMU:
-      # What is QEMU: It is a corss platform emulator capable of running performant virtual machines
+      # What is QEMU:
+        It is a cross platform emulator capable of running performant virtual machines
 
-      # On mac you have to first install QEMU: brew install qemu
-      Open your terminal and paste this: sudo apt install qemu-system-x86
+      # On mac you have to first install QEMU:
+         brew install qemu
+         Open your terminal and paste this: sudo apt install qemu-system-x86
 
-      # To verify you have it download paste this:  sudo qemu-system-x86_64 --version
+      # To verify you have it download paste this:
+      sudo qemu-system-x86_64 --version
       Reference: https://support.huawei.com/enterprise/en/doc/EDOC1100034237/2840d231/how-do-i-obtain-and-install-the-qemu-      tool
 
     ---------------------------------------------------------------------------------------------------------------------
@@ -158,7 +161,7 @@ The key's randomart image is:
       ---------------------------------------------------------------------------------------------------------------------
         
 
-  6. Define your Metedata:
+  6. Define your Metadata:
      # Which is another configuration fule that cloud-init uses to gather instance-specif information
      
      1. Paste this code: cat << EOF > meta-data
